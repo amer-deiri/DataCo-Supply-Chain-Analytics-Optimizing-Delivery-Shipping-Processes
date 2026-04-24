@@ -75,19 +75,14 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 1. Standardization: Converted all column names to lowercase and replaced spaces with underscores.
 
 2. Handling Missing Values:
-
-• Dropped product_description (100% missing).
-
-• Handled order_zipcode (86% missing) by focusing on city/state levels.
+   • Dropped product_description (100% missing).
+   • Handled order_zipcode (86% missing) by focusing on city/state levels.
 
 
 3. Feature Engineering:
-
-• Created delay_days: days_for_shipping_real - days_for_shipment_scheduled.
-
-• Extracted order_hour, order_month, and order_day_of_week from timestamps.
-
-• Calculated is_late binary target variable.
+   • Created delay_days: days_for_shipping_real - days_for_shipment_scheduled.
+   • Extracted order_hour, order_month, and order_day_of_week from timestamps.
+   • Calculated is_late binary target variable.
 
 
 4. Data Aggregation: Created a city-level dataset for Graph Neural Network (GNN) modeling.
