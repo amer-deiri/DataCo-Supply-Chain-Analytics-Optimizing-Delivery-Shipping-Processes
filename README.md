@@ -61,19 +61,19 @@ The project aims to transform raw logistics data into actionable business intell
 Based on the comprehensive analysis, the project provides clear answers to key business questions:
 
 • Which shipping modes are most prone to delays? 
-The "Standard Class" shipping mode exhibits the highest variability and propensity for delays, indicating it's a critical area for optimization.
+- The "Standard Class" shipping mode exhibits the highest variability and propensity for delays, indicating it's a critical area for optimization.
 
 • Which geographic regions (Cities/Countries) act as bottlenecks? 
-Central Asia and Central Africa were identified as high-risk zones with significantly higher delay rates, requiring targeted logistical strategies.
+- Central Asia and Central Africa were identified as high-risk zones with significantly higher delay rates, requiring targeted logistical strategies.
 
 • Does the time of order (hour/month) significantly impact delivery performance? 
-Orders placed after 7 PM show a 5% increased likelihood of delay, suggesting that late-night processing contributes to inefficiencies.
+- Orders placed after 7 PM show a 5% increased likelihood of delay, suggesting that late-night processing contributes to inefficiencies.
 
 • Can we predict a delay at the moment an order is placed? 
-Yes, the Random Forest model can predict delays with an F1-Score of 0.8915, enabling an effective early warning system.
+- Yes, the Random Forest model can predict delays with an F1-Score of 0.8915, enabling an effective early warning system.
 
 • What is the financial impact of implementing an automated delay-warning system? 
-While intervention strategies can drastically reduce delay rates (from 57.28% to under 13%), the current cost of these interventions (e.g., express shipping) often outweighs the savings, highlighting the need for cost-efficient strategies and negotiation with carriers.
+- While intervention strategies can drastically reduce delay rates (from 57.28% to under 13%), the current cost of these interventions (e.g., express shipping) often outweighs the savings, highlighting the need for cost-efficient strategies and negotiation with carriers.
 
 ###  Transformation / Preparation / Data Cleaning Process
 
