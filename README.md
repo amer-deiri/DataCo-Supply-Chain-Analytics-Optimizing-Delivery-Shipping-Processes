@@ -104,7 +104,9 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 
 ![delay_distribution.png]( https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/delay_distribution.png )
 
-![delays_by_region.png]()
+![delays_by_region.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/delays_by_region.png)
+
+![02_feature_correlation.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/02_feature_correlation.png)
 
 ### 8. Dashboard (Suggested Visuals)
 
@@ -122,6 +124,16 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 
 • Advanced Approach: Implemented a Graph Convolutional Network (GCN) with an Autoencoder for city-risk segmentation, achieving a high recall of 99.72% for identifying high-risk cities.
 
+![03_confusion_matrices_comparison.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/03_confusion_matrices_comparison%201.png)
+
+![03_confusion_matrices_comparison.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/03_confusion_matrices_comparison%202.png)
+
+![04_top10_features.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/04_top10_features.png)
+
+![05_roc_curves.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/05_roc_curves.png)
+
+![ultimate_gnn_analysis_3models_improved.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/ultimate_gnn_analysis_3models_improved.png)
+
 ### 10. Project Insights
 
 • The "Standard Class" Trap: Most delays occur in the most used shipping mode, suggesting a need for buffer-time adjustment.
@@ -129,6 +141,10 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 • Time Sensitivity: Orders placed late in the evening (after 7 PM) have a 5% higher chance of delay.
 
 • Network Bottlenecks: Supply chain delays are not random; they are structurally tied to specific geographic nodes.
+
+![05_risk_distribution.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/05_risk_distribution.png)
+
+![06_risk_assessment.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/06_risk_assessment.png)
 
 ### 11. Recommendations
 
@@ -139,4 +155,6 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 3. Operational Shift: Avoid processing high-priority orders during late-night shifts to reduce processing lag.
 
 4. Hybrid Intervention: Apply express shipping only to "High-Risk" predicted orders to balance cost and service level.
+
+![03_scenario_comparison.png](https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/03_scenario_comparison.png)
 
