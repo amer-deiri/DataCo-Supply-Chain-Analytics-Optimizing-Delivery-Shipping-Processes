@@ -1,12 +1,12 @@
-###  Project Name
+###  1. Project Name
 
 __Optimizing E-Commerce Delivery and Shipping Processes using Data Analytics & Machine Learning__
 
-###  Project Overview
+###  2. Project Overview
 
 This project focuses on optimizing e-commerce delivery and shipping processes by leveraging data analytics and machine learning. Utilizing a real-world dataset of over 180,000 transactions, the study identifies critical bottlenecks, predicts delivery delays using advanced models like Random Forest and Graph Neural Networks, and evaluates the financial impact of various intervention strategies. The goal is to provide actionable insights and a data-driven decision-making framework for supply chain managers to reduce delays and optimize costs.
 
-### Dataset Used
+### 3. Dataset Used
 
 The project utilizes the DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS dataset, which consists of 180,519 transactions with 53 initial features covering orders, shipping, customers, and product information.
 
@@ -14,7 +14,7 @@ The project utilizes the DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS dataset
 
 • Timeframe: 2015 - 2018
 
-###  Tools
+###  4. Tools
 
 • Programming Language: Python 3.10+
 
@@ -28,11 +28,11 @@ The project utilizes the DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS dataset
 
 • Environment: Jupyter Notebook / Google Colab
 
-###  KPIs and Business Questions Answered
+###  5. KPIs and Business Questions Answered
 
 The project aims to transform raw logistics data into actionable business intelligence by answering critical questions regarding supply chain efficiency.
 
-###  Core KPIs
+###  5.1 Core KPIs
 
 • On-Time Delivery Rate (OTDR): Percentage of orders delivered on or before the scheduled date.
 
@@ -44,7 +44,7 @@ The project aims to transform raw logistics data into actionable business intell
 
 • Profit Margin per Order: Net benefit after shipping and discounts.
 
-### Questions Answered
+### 5.2 Questions Answered
 
 • Which shipping modes are most prone to delays?
 
@@ -56,7 +56,7 @@ The project aims to transform raw logistics data into actionable business intell
 
 • What is the financial impact of implementing an automated delay-warning system?
 
-### Answers to Business Questions
+### 5.3 Answers to Business Questions
 
 Based on the comprehensive analysis, the project provides clear answers to key business questions:
 
@@ -75,7 +75,7 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 • What is the financial impact of implementing an automated delay-warning system? 
 - While intervention strategies can drastically reduce delay rates (from 57.28% to under 13%), the current cost of these interventions (e.g., express shipping) often outweighs the savings, highlighting the need for cost-efficient strategies and negotiation with carriers.
 
-###  Transformation / Preparation / Data Cleaning Process
+###  6. Transformation / Preparation / Data Cleaning Process
 
 1. Standardization: Converted all column names to lowercase and replaced spaces with underscores.
 
@@ -92,7 +92,7 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 
 4. Data Aggregation: Created a city-level dataset for Graph Neural Network (GNN) modeling.
 
-### Exploratory Data Analysis (EDA)
+### 7. Exploratory Data Analysis (EDA)
 
 • Delay Distribution: Discovered that 57.28% of all orders are delayed.
 
@@ -102,7 +102,11 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 
 • Correlation Analysis: Found strong correlations between shipping mode, scheduled days, and actual delivery performance.
 
-### Dashboard (Suggested Visuals)
+![delay_distribution.png]( https://github.com/amer-deiri/DataCo-Supply-Chain-Analytics-Optimizing-Delivery-Shipping-Processes/blob/main/delay_distribution.png )
+
+![delays_by_region.png]()
+
+### 8. Dashboard (Suggested Visuals)
 
 • Interactive Map: Showing delay rates by global regions.
 
@@ -110,7 +114,7 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 
 • Heatmaps: Correlation between order hour and delay probability.
 
-### Data Analysis & Results
+### 9. Data Analysis & Results
 
 • Baseline Model: Logistic Regression achieved an AUC-ROC of 0.7431.
 
@@ -118,7 +122,7 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 
 • Advanced Approach: Implemented a Graph Convolutional Network (GCN) with an Autoencoder for city-risk segmentation, achieving a high recall of 99.72% for identifying high-risk cities.
 
-### Project Insights
+### 10. Project Insights
 
 • The "Standard Class" Trap: Most delays occur in the most used shipping mode, suggesting a need for buffer-time adjustment.
 
@@ -126,7 +130,7 @@ Based on the comprehensive analysis, the project provides clear answers to key b
 
 • Network Bottlenecks: Supply chain delays are not random; they are structurally tied to specific geographic nodes.
 
-### Recommendations
+### 11. Recommendations
 
 1. Implement Early Warning System: Use the Random Forest model to flag high-risk orders in real-time.
 
